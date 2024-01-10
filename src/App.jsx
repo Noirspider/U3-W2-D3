@@ -15,7 +15,7 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="bg-darkgray">
+            <div>
               <Header />
               <Main />
               <Footer />
@@ -28,9 +28,11 @@ function App() {
           path="/moviedetail/:id"
           element={
             <>
-              <Header />
-              <MovieDetail />
-              <Footer />
+              <div>
+                <Header />
+                <MovieDetail />
+                <Footer />
+              </div>
             </>
           }
         />

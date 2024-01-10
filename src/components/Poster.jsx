@@ -5,7 +5,7 @@ function Poster(props) {
   return (
     <Col className={props.responsive}>
       <Link to={`/moviedetail/${props.poster.imdbID}`}>
-        <img src={props.poster} className=" img-fluid" alt="Media0" />
+        <img src={props.poster.Poster} className=" img-fluid" alt="Media0" />
       </Link>
     </Col>
   );
